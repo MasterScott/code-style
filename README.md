@@ -8,6 +8,10 @@
 - `using namespace` is strictly forbidden.
 - [Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation) is forbidden.
 
+### File names
+
+`PascalCase`.
+
 ### Header files
 
 Header files must have extension of `.hpp` and be guarded with `#pragma once` in the beginning.
@@ -27,5 +31,5 @@ Function/method names must be in `lowerCamelCase`.
 
 ### Class names
 
-- Class names must be in `CamelCase`.
+- Class names must be in `PascalCase`.
 - Struct names must be in `lower_snake_case`.
