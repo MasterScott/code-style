@@ -15,7 +15,7 @@ Header files must have extension of `.hpp` and be guarded with `#pragma once` in
 ### Variable names
 
 - Variable names must be `lower_snake_case`, member variable names **must not** be prefixed by `m_` or any other prefixes.
-- Constants must be in `UPPER_SNAKE_CASE`.
+- Constants must be in `UPPER_SNAKE_CASE` and use `constexpr`, not `#define`. For example: `constexpr int MAX = 100;`.
 
 ### Namespace names
 
