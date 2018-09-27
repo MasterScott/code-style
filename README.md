@@ -7,6 +7,7 @@
 - Code must be formatted with `clang-format`, the `.clang-format` settings file is provided within this repo.
 - `using namespace` is strictly forbidden.
 - [Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation) is forbidden.
+- Comments should be above the relevant code.
 
 ### File names
 
